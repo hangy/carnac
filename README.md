@@ -9,11 +9,21 @@ A keyboard logging and presentation utility for presentations, screencasts, and 
 
 ### Installation
 
-You can install the latest version of Carnac via [Chocolatey](https://chocolatey.org/):
+There are several options to install the latest version of Carnac on Windows.
 
-```ps
-cinst carnac
+#### [WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget/)
+
+```powershell
+winget install --id code52.Carnac
 ```
+
+#### [Chocolatey](https://chocolatey.org/)
+
+```powershell
+choco install carnac
+```
+
+#### Manual setup
 
 Alternatively, you can grab the latest zip file from [here](https://github.com/Code52/carnac/releases/latest), unpack it and run `Setup.exe`.
 
